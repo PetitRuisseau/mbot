@@ -1,0 +1,32 @@
+{
+  "name": "mbot",
+  "version": "1.0.0",
+  "description": "Exercice fun qui consiste àcréer une application web qui permet d'envoyer des instructions à un mbot avec l'aide de nodeJS et web-pack. Projet fait en collaboration avec @Motzee et @kadiytoure",
+  "main": "./back/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClemenceLaffont/mbot.git"
+  },
+  "keywords": [
+    "exercice",
+    "nodeJS",
+    "mbot",
+    "fun",
+    "simplon",
+    "Motzee",
+    "kadiytoure",
+    "ClemenceLaffont"
+  ],
+  "author": "Maelle LaLicorn, Kadiy Toure, Clemene Laffont",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClemenceLaffont/mbot/issues"
+  },
+  "homepage": "https://github.com/ClemenceLaffont/mbot#readme",
+  "dependencies": {
+    "johnny-five": "^0.11.3"
+  }
+}
