@@ -7,23 +7,63 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mbot's direction</title>
     <style>
-
+        #btn_top {
+            width: 0;
+            height: 0;
+            border-bottom: 120px solid green;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+        }
+        
+        #btn_back {
+            width: 0;
+            height: 0;
+            border-top: 120px solid green;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+        }
+        
+        #btn_left {
+            width: 0;
+            height: 0;
+            border-right: 120px solid green;
+            border-top: 60px solid transparent;
+            border-bottom: 60px solid transparent;
+        }
+        
+        #btn_right {
+            width: 0;
+            height: 0;
+            border-left: 120px solid green;
+            border-top: 60px solid transparent;
+            border-bottom: 60px solid transparent;
+        }
+        
+        #btn_bip {
+            width: 200px;
+            height: 100px;
+            background: red;
+            -moz-border-radius: 100px / 50px;
+            -webkit-border-radius: 100px / 50px;
+            border-radius: 100px / 50px;
+        }
     </style>
 </head>
 
 <body>
     <h1>Mbot's direction</h1>
 
-    <button class="button" id="btn_top">avancer</button>
-    <br/>
-    <button class="button" id="btn_right">tourner à droite</button>
-    <br/>
-    <button class="button" id="btn_back">reculer</button>
-    <br/>
-    <button class="button" id="btn_left">tourner à gauche</button>
-    <br/>
-    <button class="button" id="btn_bip">klaxonner</button>
-    <br/>
+    <button label="Above" class="button" id="btn_top">Up</button>
+
+    <button class="button" id="btn_left">Left</button>
+
+    <button class="button" id="btn_bip">klaxon</button>
+
+    <button class="button" id="btn_right">Right</button>
+
+    <button class="button" id="btn_back">Down</button>
+
+
     <script src="joystick.js"></script>
 </body>
 
