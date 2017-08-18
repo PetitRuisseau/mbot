@@ -1,0 +1,42 @@
+{
+  "name": "mbot_nodebots",
+  "version": "1.4.0",
+  "description": "Turn your mbot into a NodeBot",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "johnny-five": "^0.9.59",
+    "keypress": "^0.2.1",
+    "node-pixel": "^0.6.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-exec": "^1.0.0",
+    "grunt-string-replace": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Makeblock-official/mbot_nodebots.git"
+  },
+  "keywords": [
+    "mbot",
+    "johnny-five",
+    "arduino",
+    "nodebot",
+    "nodebots"
+  ],
+  "author": "Andrew Fisher <ajfisher.td@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Makeblock-official/mbot_nodebots/issues"
+  },
+  "homepage": "https://github.com/Makeblock-official/mbot_nodebots#readme"
+}

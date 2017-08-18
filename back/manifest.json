@@ -1,0 +1,13 @@
+{
+    "firmata": {
+        "multi": true,
+        "usb": {
+            "bins": "/firmware/bin/usb/",
+            "hexPath": "/mbotFirmata.ino.hex"
+        },
+        "bluetooth": {
+            "bins": "/firmware/bin/bluetooth/",
+            "hexPath": "/mbotFirmata.ino.hex"
+        }
+    }
+}
