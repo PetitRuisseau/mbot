@@ -20,13 +20,15 @@
     "kadiytoure",
     "ClemenceLaffont"
   ],
-  "author": "Maelle LaLicorn, Kadiy Toure, Clemene Laffont",
+  "author": "Maelle LaLicorne, Kadiy Toure, Clemence Laffont",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ClemenceLaffont/mbot/issues"
   },
   "homepage": "https://github.com/ClemenceLaffont/mbot#readme",
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
     "johnny-five": "^0.11.3"
   }
 }
