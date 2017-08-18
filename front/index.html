@@ -48,16 +48,23 @@
             border-radius: 100px / 50px;
         }
         
-        div {
+        #conteneur {
             display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .element:nth-child(5) {
+            align-self: flex-end;
         }
     </style>
 </head>
 
 <body>
     <h1>Mbot's direction</h1>
-    <div>
-        <button label="Above" class="button" id="btn_top">Up</button>
+    <div id="conteneur">
+        <button class="button" id="btn_top">Up</button>
 
         <button class="button" id="btn_left">Left</button>
 
