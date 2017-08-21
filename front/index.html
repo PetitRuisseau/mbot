@@ -11,6 +11,9 @@
         body {
             color: blue;
             background-color: lightskyblue;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
         
         #btn_top {
@@ -19,6 +22,7 @@
             border-bottom: 120px solid green;
             border-left: 60px solid transparent;
             border-right: 60px solid transparent;
+            border-top: none;
         }
         
         #btn_back {
@@ -27,6 +31,7 @@
             border-top: 120px solid green;
             border-left: 60px solid transparent;
             border-right: 60px solid transparent;
+            border-bottom: none;
         }
         
         #btn_left {
@@ -43,6 +48,7 @@
             border-left: 120px solid green;
             border-top: 60px solid transparent;
             border-bottom: 60px solid transparent;
+            border-right: none;
         }
         
         #btn_bip {
@@ -60,22 +66,23 @@
             justify-content: center;
             align-items: center;
             text-align: center;
+            flex-grow: 1;
         }
         
         .button {
             display: inline-block;
-            margin-right: 5px;
-            margin-top: 165px;
-            margin-left: 7px;
         }
         
         #titre {
-            display: flex;
-            flex-direction: column;
+            text-align: center;
             align-items: center;
             color: black;
             font-family: 'Roboto', sans-serif;
             font-size: 27px;
+        }
+        
+        * {
+            box-sizing: border-box;
         }
     </style>
 </head>
