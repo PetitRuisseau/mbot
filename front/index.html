@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
     <title>Mbot's direction</title>
     <style>
         body {
@@ -58,6 +59,7 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
+            text-align: center;
         }
         
         .button {
@@ -66,21 +68,33 @@
             margin-top: 165px;
             margin-left: 7px;
         }
+        
+        #titre {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: black;
+            font-family: 'Roboto', sans-serif;
+            font-size: 27px;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Mbot's direction</h1>
+    <div id="titre">
+        <h1>Mbot's direction</h1>
+        <p>Choice your direction!</p>
+    </div>
     <div id="conteneur">
-        <button class="button" id="btn_top">Forward</button>
+        <button class="button" id="btn_top"></button>
 
-        <button class="button" id="btn_left">Left</button>
+        <button class="button" id="btn_left"></button>
 
-        <button class="button" id="btn_bip">klaxon</button>
+        <button class="button" id="btn_bip"></button>
 
-        <button class="button" id="btn_right">Right</button>
+        <button class="button" id="btn_right"></button>
 
-        <button class="button" id="btn_back">Backward</button>
+        <button class="button" id="btn_back"></button>
     </div>
 
     <script src="joystick.js"></script>
