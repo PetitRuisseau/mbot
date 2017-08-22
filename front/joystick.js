@@ -9,7 +9,7 @@ for (let i = 0 ; i < btns.length ; i += 1)   {
         
         ajaxMultisurfaces({
             method: 'POST',
-            url: '../back/index.js', 
+            url: '/back', 
             args: 'instruction='+instruct,
             callback: function(response) {
 
@@ -27,7 +27,7 @@ for (let i = 0 ; i < btns.length ; i += 1)   {
         
         ajaxMultisurfaces({
             method: 'POST',
-            url: '../back/index.js', 
+            url: '/back', 
             args: 'instruction='+instruct,
             callback: function(response) {
 

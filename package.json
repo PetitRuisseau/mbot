@@ -29,6 +29,7 @@
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
-    "johnny-five": "^0.11.3"
+    "johnny-five": "^0.11.3",
+    "multer": "^1.3.0"
   }
 }
